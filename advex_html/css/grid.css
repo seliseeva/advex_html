@@ -1,0 +1,101 @@
+
+.container {
+  width: 964px;
+  margin: 0 auto;
+}
+
+/* Columns
+-------------------------------------------------------------- */
+
+/* Sets up basic grid floating and margin. */
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12 {float:left;margin-right: 20px;}
+
+/* The last column in a row needs this class. */
+.last { margin-right: 0 !important; }
+
+/* Use these classes to set the width of a column. */
+.grid_1  { width: 62px;}
+.grid_2  { width: 144px;}
+.grid_3  { width: 226px;}
+.grid_4  { width: 308px;}
+.grid_5  { width: 390px;}
+.grid_6  { width: 472px;}
+.grid_7  { width: 554px;}
+.grid_8  { width: 636px;}
+.grid_9  { width: 718px;}
+.grid_10 { width: 800px;}
+.grid_11 { width: 882px;}
+.grid_12, .grid_12 { width: 964px; margin: 0; }
+
+
+/* Add these to a column to append empty cols. */
+.append-1  { padding-right: 82px;}
+.append-2  { padding-right: 164px;}
+.append-3  { padding-right: 246px;}
+.append-4  { padding-right: 328px;}
+.append-5  { padding-right: 410px;}
+.append-6  { padding-right: 492px;}
+.append-7  { padding-right: 574px;}
+.append-8  { padding-right: 656px;}
+.append-9  { padding-right: 738px;}
+.append-10 { padding-right: 820px;}
+.append-11 { padding-right: 902px;}
+
+
+/* Add these to a column to prepend empty cols. */
+.prepend-1  { padding-left: 82px;}
+.prepend-2  { padding-left: 164px;}
+.prepend-3  { padding-left: 246px;}
+.prepend-4  { padding-left: 328px;}
+.prepend-5  { padding-left: 410px;}
+.prepend-6  { padding-left: 492px;}
+.prepend-7  { padding-left: 574px;}
+.prepend-8  { padding-left: 656px;}
+.prepend-9  { padding-left: 738px;}
+.prepend-10 { padding-left: 820px;}
+.prepend-11 { padding-left: 902px;}
+
+/* Use these classes on an element to push it into the 
+   next column, or to pull it into the previous column.  */
+
+.pull-1 { margin-left: -82px;}
+.pull-2 { margin-left: -164px;}
+.pull-3 { margin-left: -246px;}
+.pull-4 { margin-left: -328px;}
+.pull-5 { margin-left: -410px;}
+.pull-6 { margin-left: -492px;}
+.pull-7 { margin-left: -574px;}
+.pull-8 { margin-left: -656px;}
+.pull-9 { margin-left: -738px;}
+.pull-10 { margin-left: -820px;}
+.pull-11 { margin-left: -902px;}
+.pull-12 { margin-left: -984px;}
+
+.pull-1, .pull-2, .pull-3, .pull-4, .pull-5, .pull-6, .pull-7, .pull-8, .pull-9, .pull-10, .pull-11, .pull-12 {float:left;position:relative;}
+
+
+.push-1 { margin: 0 -82px 1.5em 82px;}
+.push-2 { margin: 0 -164px 1.5em 164px;}
+.push-3 { margin: 0 -246px 1.5em 246px;}
+.push-4 { margin: 0 -328px 1.5em 328px;}
+.push-5 { margin: 0 -410px 1.5em 410px;}
+.push-6 { margin: 0 -492px 1.5em 492px;}
+.push-7 { margin: 0 -574px 1.5em 574px;}
+.push-8 { margin: 0 -656px 1.5em 656px;}
+.push-9 { margin: 0 -738px 1.5em 738px;}
+.push-10 { margin: 0 -820px 1.5em 820px;}
+.push-11 { margin: 0 -902px 1.5em 902px;}
+.push-12 { margin: 0 -984px 1.5em 984px;}
+
+.push-1, .push-2, .push-3, .push-4, .push-5, .push-6, .push-7, .push-8, .push-9, .push-10, .push-11, .push-12 {float:right;position:relative;}
+
+
+
+.clearfix:after, .container:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
